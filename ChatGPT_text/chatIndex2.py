@@ -3,7 +3,7 @@ import openai
 import time
 
 # Chave de API do OpenAI
-API_KEY = 'YOUR APP KEY'
+API_KEY = os.getenv('GPT_APP_KEY')
 
 # Configurar a API do OpenAI com a chave de API
 openai.api_key = API_KEY
