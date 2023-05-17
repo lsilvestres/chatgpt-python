@@ -1,0 +1,5 @@
+.DS_Store
+
+*.mp3
+ChatLSAI_Voice/__pycache__
+ChatLSAI_Voice/deepspeech-env
